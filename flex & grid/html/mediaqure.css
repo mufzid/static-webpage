@@ -1,0 +1,51 @@
+/* RESPONSIVE */
+.section_white{
+   
+}
+@media only screen and (max-width:1024px){
+      .banner .banner_img img {
+        display: none ;
+    }
+    .box{
+        grid-template-columns: repeat(2,1fr)!important;
+        justify-content: center;
+    }
+      .box2:nth-child(2){
+        top: 0;
+    }
+    .box2:nth-child(4){
+        top: 0;
+    }
+       .bannercontent{
+          flex-basis: 100%;
+    }
+       .card_list{
+        grid-template-columns: repeat(2,1fr);
+    }
+    .big_card{
+        grid-template-columns: 1fr;
+    }
+    .card_elements{
+    align-items: center;
+    justify-content: end;
+    }
+    .footer_contant{
+        grid-template-columns: repeat(3,1fr);
+    }
+    .review .align{
+        grid-template-columns: 1fr;
+    }
+
+ 
+}
+@media only screen and (max-width:767px) {
+    .head_list{
+        margin-right: 0px;
+        display: none;
+    }
+    .nav h5{    
+        flex: 1;
+    }
+
+
+}
